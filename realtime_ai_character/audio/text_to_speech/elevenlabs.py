@@ -43,6 +43,7 @@ class ElevenLabs(Singleton, TextToSpeech):
             "Bruce Wayne": os.environ.get('BRUCE_VOICE') or config.default_male_voice,
             "Steve Jobs": os.environ.get('JOBS_VOICE') or config.default_male_voice,
             "Sam Altman": os.environ.get('SAM_VOICE') or config.default_male_voice,
+            "Coby The Cat": os.environ.get('COBY_VOICE') or config.default_male_voice,
         }
 
     def get_voice_id(self, name):

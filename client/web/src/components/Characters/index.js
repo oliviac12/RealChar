@@ -17,6 +17,7 @@ import bruce from '../../assets/images/bruce.png';
 import steve from '../../assets/images/jobs.png';
 import realchar from '../../assets/svgs/realchar.svg';
 import sam from '../../assets/images/sam.png';
+import coby from '../../assets/images/coby.png';
 
 // create character groups
 const createCharacterGroups = (message) => {
@@ -30,7 +31,8 @@ const createCharacterGroups = (message) => {
         'Elon Musk': elon,
         'Bruce Wayne': bruce,
         'Steve Jobs': steve,
-        'Sam Altman': sam
+        'Sam Altman': sam,
+        'Coby The Cat': coby,
     };
 
     const newCharacterGroups = [];
